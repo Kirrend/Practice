@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel = "stylesheet" type = "text/css"  href = table_style.css>
+</head>
+<body>
+<h2>Simple Calculator</h2>
+<input type="number" id = "operand1" maxlength="9" title="">
+
+<button type="button" id = "operator" onclick= "ChangeOperator()">+</button>
+
+<input type="number" id = "operand2" maxlength="9" title="">
+
+<button type="button" onclick= "Showresult()" >=</button>
+
+<output id = "result"  ></output>
+
+<p></p>
+<table style="width:50%" >
+    <tr>
+        <th>Expression</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <th id = "statement1"></th>
+        <th id = "result1">0</th>
+    </tr>
+    <tr>
+        <th id = "statement2"></th>
+        <th id = "result2">0</th>
+    </tr>
+    <tr>
+        <th id = "statement3"></th>
+        <th id = "result3">0</th>
+    </tr>
+    <tr>
+        <th id = "statement4"></th>
+        <th id = "result4">0</th>
+    </tr>
+    <tr>
+        <th id = "statement5"></th>
+        <th id = "result5">0</th>
+    </tr>
+</table>
+
+<script src="caculator.js"></script>
+</body>
+</html>
